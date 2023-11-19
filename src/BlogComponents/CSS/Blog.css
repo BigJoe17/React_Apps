@@ -1,0 +1,57 @@
+.box-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  display: block;
+  text-align: center;
+}
+.box-container h2 {
+  color: crimson;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.content label {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+}
+
+.content input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+#remind{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+  
+}
+#remind span{
+    float: right;
+    justify-content: space-around;
+    width: 100%;
+}
+.content input[type="submit"] {
+  background-color: crimson;
+  color: white;
+  font-size: 17px;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.footLinks {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.footLinks a,
+p {
+  text-decoration: none;
+  color: blue;
+  font-size: large;
+}
